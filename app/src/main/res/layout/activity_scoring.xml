@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scoring"
+    android:background="@color/black">
+
+
+    <RadioGroup
+        android:id="@+id/Rungs"
+        android:layout_width="488dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="65dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/noRung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="RungSpots"
+            android:text="None (0)"
+            android:checked="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray" />
+
+        <RadioButton
+            android:id="@+id/lowRung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="RungSpots"
+            android:text="Low (4)"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray" />
+
+        <RadioButton
+            android:id="@+id/midRung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="RungSpots"
+            android:text="Mid (6)"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray" />
+
+        <RadioButton
+            android:id="@+id/highRung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="RungSpots"
+            android:text="High (10)"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray" />
+
+        <RadioButton
+            android:id="@+id/transversalRung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="RungSpots"
+            android:text="Traversal (15)"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/plusHighPts"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="620dp"
+        android:layout_toEndOf="@+id/highCounterTxt"
+        android:text="+"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/highCounterTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="118dp"
+        android:text="0"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="173dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:text="High Points"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"/>
+
+    <Button
+        android:id="@+id/minusLowPts"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="408dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="-276dp"
+        android:layout_marginBottom="620dp"
+        android:text="-"
+        android:textSize="80sp" />
+
+    <Button
+        android:id="@+id/minusHighPts"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="-276dp"
+        android:layout_marginBottom="620dp"
+        android:text="-"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/lowCounterTxt"
+        android:layout_width="61dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="558dp"
+        android:layout_marginTop="109dp"
+        android:text="0"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"/>
+
+    <Button
+        android:id="@+id/plusLowPts"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="620dp"
+        android:layout_toEndOf="@+id/lowCounterTxt"
+        android:text="+"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/LowPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/highCounterTxt"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="532dp"
+        android:layout_marginBottom="115dp"
+        android:text="Low Points"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"/>
+
+    <Button
+        android:id="@+id/IntoEndgame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Rungs"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="-110dp"
+        android:text="Finish Game" />
+
+</RelativeLayout>

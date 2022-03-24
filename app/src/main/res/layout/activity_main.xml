@@ -8,6 +8,28 @@
     tools:context=".MainActivity"
     android:background="@color/black">
 
+    <Spinner
+        android:id="@+id/nameDropdown"
+        android:layout_width="134dp"
+        android:layout_height="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="113dp"
+        android:layout_toEndOf="@+id/MatchNumber"
+        android:background="@color/white"
+        android:entries="@array/names"/>
+
+    <Spinner
+        android:id="@+id/teamDropdown"
+        android:layout_width="134dp"
+        android:layout_height="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="205dp"
+        android:layout_toEndOf="@+id/MatchNumber"
+        android:background="@color/white" />
 
     <RadioGroup
         android:id="@+id/RadioGroup"
@@ -49,8 +71,8 @@
         android:layout_marginStart="3dp"
         android:layout_marginTop="320dp"
         android:text="Alliance"
-        android:textSize="20sp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/StartMatch"
@@ -73,8 +95,9 @@
         android:inputType="number"
         android:minHeight="48dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/gray"/>
+        android:textColorHint="@color/gray" />
 
+    <!-->
     <EditText
         android:id="@+id/TeamNumber"
         android:layout_width="wrap_content"
@@ -89,7 +112,8 @@
         android:inputType="number"
         android:minHeight="48dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/gray"/>
+        android:textColorHint="@color/gray" />
+
 
     <EditText
         android:id="@+id/Name"
@@ -105,6 +129,7 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/gray"/>
+        android:textColorHint="@color/gray" />
+    <!-->
 
 </RelativeLayout>

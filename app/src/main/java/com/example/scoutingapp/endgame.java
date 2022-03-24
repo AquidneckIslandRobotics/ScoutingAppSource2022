@@ -70,6 +70,8 @@ public class endgame extends AppCompatActivity {
         String lowTele = getIntent().getStringExtra("lowTele");
         String rungs = getIntent().getStringExtra("rungs");
         String rungPts = getIntent().getStringExtra("rungPts");
+        String disabled = getIntent().getStringExtra("disabled");
+        String penalties = getIntent().getStringExtra("penalties");
 
         try {
             File root = new File("/sdcard/2022Scouting");
@@ -88,19 +90,35 @@ public class endgame extends AppCompatActivity {
             if (driveAuto.equals("Drove")){driveAutoInt = 2;}
             int total = highCounterAutoInt+lowCounterAutoInt+highTeleInt+lowTeleInt+rungPtsInt+driveAutoInt;
 
+            int autoTotal = highCounterAutoInt+lowCounterAutoInt;
+            String autoTotalString = Integer.toString(autoTotal);
+            int teleTotal = highTeleInt+lowTeleInt;
+            String teleTotalString = Integer.toString(teleTotal);
+            int autoClimb = autoTotal + rungPtsInt;
+            String autoClimbString = Integer.toString(autoClimb);
+
             File filepath = new File(root, matchNum+"_"+teamNum+".csv");
             FileWriter writer = new FileWriter(filepath);
             System.out.println("what");
-            writer.append("x"+teamNum+",");
+            writer.append("'"+teamNum+",");
             writer.append(matchNum+",");
             writer.append(name+",");
             writer.append(alliance+",");
             writer.append(highCounterAutoInt+",");
             writer.append(lowCounterAutoInt+",");
-            writer.append(driveAuto+",");
+            writer.append(driveAutoInt+",");
             writer.append(highTeleInt+",");
             writer.append(lowTele+",");
-            writer.append(rungs);
+            writer.append(rungPts);
+            writer.append(","+disabled);
+            writer.append(","+penalties);
+            writer.append(","+total);
+            writer.append(", ,'");
+            writer.append(teamNum+",");
+            writer.append(autoTotalString+",");
+            writer.append(rungPts);
+            writer.append(","+autoClimbString+",");
+            writer.append(teleTotalString);
             writer.append(","+total);
             writer.flush();
             writer.close();

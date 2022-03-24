@@ -54,6 +54,7 @@ public class Scoring extends AppCompatActivity {
     RadioGroup RungGroup;
     RadioButton RungButtons;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,6 +75,7 @@ public class Scoring extends AppCompatActivity {
         intoEndgame.setOnClickListener(clickListener);
 
         RungGroup = findViewById(R.id.Rungs);
+
     }
 
 
@@ -106,20 +108,24 @@ public class Scoring extends AppCompatActivity {
             rungPts = 6;
         }else if (rung.equals("High (10)")){
             rungPts = 10;
-        }else if (rung.equals("Transversal (15)")){
+        }else if (rung.equals("Traversal (15)")){
             rungPts = 15;
         }else{
             rungPts = 0;
         }
+
+
+
         System.out.println(rungPts);
         String highCounterStr = String.valueOf(highCounter);
         String lowCounterStr = String.valueOf(lowCounter);
         String rungPtsStr = String.valueOf(rungPts);
 
+
         if (highCounterStr.equals("")){highCounterStr = "0";}
         if (lowCounterStr.equals("")){lowCounterStr = "0";}
 
-        Intent intent = new Intent(this, endgame.class);
+        Intent intent = new Intent(this, postData.class);
         String name = getIntent().getStringExtra("perName");
         String matchNum = getIntent().getStringExtra("matchNum");
         String teamNum = getIntent().getStringExtra("teamNum");

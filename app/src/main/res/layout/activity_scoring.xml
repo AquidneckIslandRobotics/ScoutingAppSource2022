@@ -96,7 +96,7 @@
         android:layout_height="41dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="33dp"
-        android:text="High Points"
+        android:text="High Shots"
         android:textSize="30sp"
         android:textColor="@color/white"
         android:textColorHint="@color/gray"/>
@@ -161,7 +161,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="532dp"
         android:layout_marginBottom="115dp"
-        android:text="Low Points"
+        android:text="Low Shots"
         android:textSize="30sp"
         android:textColor="@color/white"
         android:textColorHint="@color/gray"/>
@@ -174,5 +174,6 @@
         android:layout_marginStart="86dp"
         android:layout_marginTop="-110dp"
         android:text="Finish Game" />
+
 
 </RelativeLayout>

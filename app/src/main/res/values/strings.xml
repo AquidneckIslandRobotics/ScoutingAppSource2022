@@ -1,4 +1,80 @@
 <resources>
     <string name="app_name">Rapid React</string>
     <string name="alliance">Aliance</string>
+
+    <string-array name="names">
+        <item>Names</item>
+        <item>Addison</item>
+        <item>Rick</item>
+        <item>Aislinn</item>
+        <item>Austin</item>
+        <item>Cameron</item>
+        <item>Colten</item>
+        <item>David Jope</item>
+        <item>David Nugent</item>
+        <item>Emma</item>
+        <item>Gary</item>
+        <item>Gio</item>
+        <item>Gregory</item>
+        <item>Inesh</item>
+        <item>Jacob</item>
+        <item>Joseph</item>
+        <item>Laura</item>
+        <item>Maddie</item>
+        <item>Mark</item>
+        <item>Mike</item>
+        <item>NATHAN</item>
+        <item>Nehuel</item>
+        <item>Paige</item>
+        <item>Pauline</item>
+        <item>Tess</item>
+        <item>Thomas</item>
+        <item>Tim Lopes</item>
+        <item>Tim Sieben</item>
+        <item>Tony</item>
+    </string-array>
+
+    <string-array name="teams">
+        <item>Team Number</item>
+        <item>78</item>
+        <item>121</item>
+        <item>138</item>
+        <item>157</item>
+        <item>173</item>
+        <item>190</item>
+        <item>230</item>
+        <item>716</item>
+        <item>811</item>
+        <item>1058</item>
+        <item>1100</item>
+        <item>1153</item>
+        <item>1735</item>
+        <item>1768</item>
+        <item>2067</item>
+        <item>2079</item>
+        <item>2168</item>
+        <item>2262</item>
+        <item>2712</item>
+        <item>2785</item>
+        <item>2876</item>
+        <item>3205</item>
+        <item>3461</item>
+        <item>3467</item>
+        <item>4034</item>
+        <item>4048</item>
+        <item>4097</item>
+        <item>4169</item>
+        <item>4796</item>
+        <item>4908</item>
+        <item>5112</item>
+        <item>5422</item>
+        <item>6333</item>
+        <item>6620</item>
+        <item>6731</item>
+        <item>7760</item>
+        <item>8410</item>
+        <item>8544</item>
+        <item>8709</item>
+        <item>8724</item>
+    </string-array>
 </resources>

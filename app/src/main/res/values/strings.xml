@@ -3,84 +3,59 @@
     <string name="alliance">Aliance</string>
 
     <string-array name="names">
-        <item>Names</item>
-        <item>Addison</item>
-        <item>Rick</item>
-        <item>Aislinn</item>
-        <item>Anakin</item>
-        <item>Austin</item>
-        <item>Cameron</item>
-        <item>Colten</item>
+        <item>Scouter</item>
+        <item>Addison Heffernan</item>
+        <item>Aidan Lynch</item>
+        <item>Cameron Souza</item>
+        <item>Colten Bert</item>
+        <item>Connor Tavares</item>
         <item>David Jope</item>
-        <item>David Nugent</item>
-        <item>Daniel</item>
-        <item>Doug</item>
-        <item>Emma</item>
-        <item>Evan</item>
-        <item>Gary</item>
-        <item>Gio</item>
-        <item>Gregory</item>
-        <item>Inesh</item>
-        <item>Isaac</item>
-        <item>Jacob</item>
-        <item>Johnny</item>
-        <item>Joseph</item>
-        <item>Laura</item>
-        <item>Maddie</item>
-        <item>Mark</item>
-        <item>Mike</item>
-        <item>NATHAN</item>
-        <item>Nehuel</item>
-        <item>Oliver</item>
-        <item>Paige</item>
-        <item>Pauline</item>
-        <item>Tess</item>
-        <item>Thomas</item>
-        <item>Tim Lopes</item>
-        <item>Tim Sieben</item>
-        <item>Tony</item>
+        <item>Emma Hoag</item>
+        <item>Ethan Hoag</item>
+        <item>Jacob Lentz</item>
+        <item>Landon Montecalvo</item>
+        <item>Laura Hoag</item>
+        <item>Logan Gilbertson</item>
+        <item>Madison Gomes</item>
+        <item>Nathan Darring</item>
+        <item>Rick Blight</item>
+        <item>Tony Fruzzetti</item>
+        <item>Candy Man</item>
     </string-array>
 
     <string-array name="teams">
         <item>Team Number</item>
-        <item>58</item>
         <item>78</item>
         <item>88</item>
+        <item>125</item>
         <item>131</item>
-        <item>133</item>
-        <item>155</item>
-        <item>175</item>
-        <item>177</item>
-        <item>230</item>
+        <item>138</item>
+        <item>151</item>
+        <item>166</item>
+        <item>172</item>
+        <item>190</item>
+        <item>238</item>
         <item>319</item>
-        <item>716</item>
-        <item>1071</item>
-        <item>1100</item>
-        <item>1153</item>
+        <item>501</item>
+        <item>509</item>
+        <item>811</item>
+        <item>839</item>
+        <item>1058</item>
         <item>1474</item>
-        <item>1699</item>
         <item>1729</item>
-        <item>1740</item>
-        <item>1757</item>
+        <item>1735</item>
         <item>1922</item>
         <item>2262</item>
-        <item>2342</item>
-        <item>2370</item>
-        <item>3205</item>
-        <item>3654</item>
-        <item>4041</item>
-        <item>4048</item>
-        <item>4564</item>
+        <item>2876</item>
+        <item>3323</item>
+        <item>3467</item>
         <item>4905</item>
         <item>4909</item>
-        <item>5422</item>
-        <item>5563</item>
-        <item>5735</item>
+        <item>5813</item>
         <item>6324</item>
-        <item>7674</item>
-        <item>8085</item>
-        <item>8544</item>
-        <item>8708</item>
+        <item>6763</item>
+        <item>7314</item>
+        <item>8410</item>
         <item>8724</item>
     </string-array>
 </resources>

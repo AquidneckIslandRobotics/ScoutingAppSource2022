@@ -74,7 +74,7 @@ public class endgame extends AppCompatActivity {
         String penalties = getIntent().getStringExtra("penalties");
 
         try {
-            File root = new File("/sdcard/2022Scouting");
+            File root = new File("/sdcard/Documents");
             if (!root.exists())
             {
                 root.mkdir();

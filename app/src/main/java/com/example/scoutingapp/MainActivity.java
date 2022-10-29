@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button button;
     private Spinner spinnerName, spinnerTeam;
-    private TextView matchNum, perName, teamNum;
+    public TextView matchNum, perName, teamNum;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

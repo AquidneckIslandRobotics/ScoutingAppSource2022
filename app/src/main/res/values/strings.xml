@@ -11,7 +11,6 @@
         <item>Cameron</item>
         <item>Colten</item>
         <item>David Jope</item>
-        <item>David Nugent</item>
         <item>Emma</item>
         <item>Gary</item>
         <item>Gio</item>
@@ -36,45 +35,77 @@
 
     <string-array name="teams">
         <item>Team Number</item>
+        <item>48</item>
         <item>78</item>
+        <item>88</item>
         <item>121</item>
+        <item>125</item>
+        <item>126</item>
+        <item>131</item>
         <item>138</item>
+        <item>155</item>
         <item>157</item>
+        <item>166</item>
         <item>173</item>
+        <item>175</item>
+        <item>177</item>
         <item>190</item>
-        <item>230</item>
+        <item>195</item>
+        <item>228</item>
+        <item>238</item>
+        <item>319</item>
+        <item>467</item>
+        <item>501</item>
+        <item>694</item>
         <item>716</item>
-        <item>811</item>
+        <item>839</item>
         <item>1058</item>
+        <item>1073</item>
         <item>1100</item>
-        <item>1153</item>
+        <item>1155</item>
+        <item>1468</item>
+        <item>1474</item>
+        <item>1729</item>
         <item>1735</item>
+        <item>1740</item>
         <item>1768</item>
-        <item>2067</item>
-        <item>2079</item>
+        <item>1796</item>
+        <item>1991</item>
+        <item>2084</item>
         <item>2168</item>
         <item>2262</item>
-        <item>2712</item>
-        <item>2785</item>
-        <item>2876</item>
-        <item>3205</item>
-        <item>3461</item>
+        <item>2265</item>
+        <item>2370</item>
+        <item>2423</item>
+        <item>2713</item>
+        <item>2877</item>
+        <item>3182</item>
         <item>3467</item>
-        <item>4034</item>
+        <item>4041</item>
         <item>4048</item>
-        <item>4097</item>
-        <item>4169</item>
-        <item>4796</item>
-        <item>4908</item>
-        <item>5112</item>
-        <item>5422</item>
-        <item>6333</item>
-        <item>6620</item>
-        <item>6731</item>
-        <item>7760</item>
-        <item>8410</item>
+        <item>4122</item>
+        <item>4176</item>
+        <item>4909</item>
+        <item>5494</item>
+        <item>5813</item>
+        <item>6324</item>
+        <item>6328</item>
+        <item>6763</item>
+        <item>7153</item>
+        <item>7407</item>
+        <item>7462</item>
+        <item>8085</item>
         <item>8544</item>
-        <item>8709</item>
+        <item>8567</item>
         <item>8724</item>
+        <item>5422</item>
+        <item>3623</item>
+        <item>5962</item>
+        <item>2712</item>
+        <item>6153</item>
+        <item>2712</item>
+        <item>3719</item>
+        <item>236</item>
+        <item>6933</item>
     </string-array>
 </resources>

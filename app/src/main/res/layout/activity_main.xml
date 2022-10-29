@@ -6,19 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     tools:context=".MainActivity"
-    android:background="@color/black">
-
-    <Spinner
-        android:id="@+id/nameDropdown"
-        android:layout_width="134dp"
-        android:layout_height="93dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="113dp"
-        android:layout_toEndOf="@+id/MatchNumber"
-        android:background="@color/white"
-        android:entries="@array/names"/>
+    android:background="@color/black"
+    >
 
     <Spinner
         android:id="@+id/teamDropdown"
@@ -26,18 +15,29 @@
         android:layout_height="93dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="205dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="120dp"
         android:layout_toEndOf="@+id/MatchNumber"
         android:background="@color/white" />
+
+    <Spinner
+        android:id="@+id/nameDropdown"
+        android:layout_width="134dp"
+        android:layout_height="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="28dp"
+        android:layout_toEndOf="@+id/MatchNumber"
+        android:background="@color/white"
+        android:entries="@array/names" />
 
     <RadioGroup
         android:id="@+id/RadioGroup"
         android:layout_width="70dp"
         android:layout_height="146dp"
         android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="604dp"
+        android:layout_marginEnd="3dp"
         android:background="@color/black">
 
         <RadioButton
@@ -49,7 +49,7 @@
             android:checked="true"
             android:onClick="Alliance"
             android:text="Red"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white" />
 
 
         <RadioButton
@@ -59,7 +59,7 @@
             android:layout_alignParentBottom="true"
             android:onClick="Alliance"
             android:text="Blue"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white" />
     </RadioGroup>
 
     <TextView
@@ -68,8 +68,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginStart="591dp"
+        android:layout_marginTop="192dp"
         android:text="Alliance"
         android:textColor="@color/white"
         android:textSize="20sp" />
@@ -78,8 +78,11 @@
         android:id="@+id/StartMatch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/MatchNumber"
         android:layout_marginStart="400dp"
-        android:layout_marginTop="304dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="86dp"
+        android:layout_toStartOf="@+id/teamDropdown"
         android:text="Start Match" />
 
     <EditText
@@ -88,8 +91,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="175dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="30dp"
         android:ems="10"
         android:hint="Match Number"
         android:inputType="number"

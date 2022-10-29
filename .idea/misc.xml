@@ -9,11 +9,16 @@
         <entry key="..\:/Users/addis/AndroidStudioProjects/ScoutingApp/app/src/main/res/drawable/text_color.xml" value="0.1875" />
         <entry key="..\:/Users/addis/AndroidStudioProjects/ScoutingApp/app/src/main/res/layout/activity_auto.xml" value="0.16" />
         <entry key="..\:/Users/addis/AndroidStudioProjects/ScoutingApp/app/src/main/res/layout/activity_endgame.xml" value="0.16" />
-        <entry key="..\:/Users/addis/AndroidStudioProjects/ScoutingApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/addis/AndroidStudioProjects/ScoutingApp/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/addis/AndroidStudioProjects/ScoutingApp/app/src/main/res/layout/activity_post_data.xml" value="0.1" />
         <entry key="..\:/Users/addis/AndroidStudioProjects/ScoutingApp/app/src/main/res/layout/activity_scoring.xml" value="0.2" />
         <entry key="..\:/Users/addis/AndroidStudioProjects/ScoutingApp/app/src/main/res/layout/color_spinner_layout.xml" value="0.1902497027348395" />
         <entry key="..\:/Users/addis/AndroidStudioProjects/ScoutingApp/app/src/main/res/layout/spinner_dropdown_layout.xml" value="0.1902497027348395" />
+        <entry key="..\:/Users/addis/AndroidStudioProjects/ScoutingAppForPhone/app/src/main/res/layout/activity_auto.xml" value="0.1902497027348395" />
+        <entry key="..\:/Users/addis/AndroidStudioProjects/ScoutingAppForPhone/app/src/main/res/layout/activity_endgame.xml" value="0.1902497027348395" />
+        <entry key="..\:/Users/addis/AndroidStudioProjects/ScoutingAppForPhone/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/addis/AndroidStudioProjects/ScoutingAppForPhone/app/src/main/res/layout/activity_post_data.xml" value="0.1902497027348395" />
+        <entry key="..\:/Users/addis/AndroidStudioProjects/ScoutingAppForPhone/app/src/main/res/layout/spinner_dropdown_layout.xml" value="0.11137534680935395" />
       </map>
     </option>
   </component>
